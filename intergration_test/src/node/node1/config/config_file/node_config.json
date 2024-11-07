@@ -1,0 +1,10 @@
+{
+    "proxy_addr":"172.28.149.147:50000",
+    "node_addr":"172.28.149.148:50001",
+    "listen_addr":"0.0.0.0:50001",
+    "threshold_params":{
+      "threshold":2,
+      "share_counts":4
+    }
+    
+}

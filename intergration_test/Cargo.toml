@@ -1,0 +1,38 @@
+[package]
+name = "intergration_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+class_group = {path = "../class_group"}
+gs_tbk_scheme = { path = "../gs_tbk_scheme"}
+node ={ path = "../node"}
+proxy = {path = "../proxy"}
+user = {path = "../user"}
+
+
+curv-kzen = { version = "0.9", default-features = false }
+sha2 = "0.9"
+thiserror = "1.0.23"
+serde = { version = "1.0", features = ["derive"] }
+# serde_yaml = "0.8"
+time = "0.1"
+serde_json = "1.0"
+num = "0.2"
+chrono = "0.4"
+crossbeam-channel = "0.5.1"
+bincode = "1.3.1"
+anyhow = "1.0"
+tokio = { version = "1.32.0", features = ["full"] }
+tokio-util = { version = "0.7.0", features = ["full"] }
+tokio-stream = { version = "0.1" }
+rand = "0.8"
+log = "0.4"
+log4rs = "1.2.0"
+regex = "1.5.0"
+
+
+
+

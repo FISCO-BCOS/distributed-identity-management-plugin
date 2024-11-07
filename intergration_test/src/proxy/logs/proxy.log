@@ -1,0 +1,58 @@
+2024-10-15T21:49:03.877420892+08:00 INFO intergration_test::proxy::proxy_node - Proxy_node is listening on 0.0.0.0:50000
+2024-10-15T21:49:12.229982245+08:00 INFO intergration_test::proxy::proxy_node - From Role : Group Manager Node, Get NodeToProxySetupPhaseP2PMsg
+2024-10-15T21:49:12.230122912+08:00 WARN intergration_test::proxy::proxy_node - Insufficient number of messages, and current number is Mutex { data: 1 }
+2024-10-15T21:49:30.880450597+08:00 INFO intergration_test::proxy::proxy_node - From Role : Group Manager Node, Get NodeToProxySetupPhaseP2PMsg
+2024-10-15T21:49:30.880553175+08:00 WARN intergration_test::proxy::proxy_node - Insufficient number of messages, and current number is Mutex { data: 2 }
+2024-10-15T21:49:38.790136768+08:00 INFO intergration_test::proxy::proxy_node - From Role : Group Manager Node, Get NodeToProxySetupPhaseP2PMsg
+2024-10-15T21:49:38.790267947+08:00 WARN intergration_test::proxy::proxy_node - Insufficient number of messages, and current number is Mutex { data: 3 }
+2024-10-15T21:49:43.119014675+08:00 INFO intergration_test::proxy::proxy_node - From Role : Group Manager Node, Get NodeToProxySetupPhaseP2PMsg
+2024-10-15T21:49:44.119227132+08:00 INFO proxy::gs_tbk_scheme::setup_phase - Setup phase is staring!
+2024-10-15T21:49:44.122386303+08:00 INFO intergration_test::proxy::proxy_node - From id : 1, Role : Group Manager Node, Get NodeSetupPhaseFinishFlag
+2024-10-15T21:49:44.126052167+08:00 INFO intergration_test::proxy::proxy_node - ProxySetupBroadcastMsg has send
+2024-10-15T21:49:44.126175157+08:00 WARN intergration_test::proxy::proxy_node - Insufficient number of messages, and current number is Mutex { data: 1 }
+2024-10-15T21:49:44.127650759+08:00 INFO intergration_test::proxy::proxy_node - From id : 2, Role : Group Manager Node, Get NodeSetupPhaseFinishFlag
+2024-10-15T21:49:44.127739315+08:00 WARN intergration_test::proxy::proxy_node - Insufficient number of messages, and current number is Mutex { data: 2 }
+2024-10-15T21:49:44.129569084+08:00 INFO intergration_test::proxy::proxy_node - From id : 3, Role : Group Manager Node, Get NodeSetupPhaseFinishFlag
+2024-10-15T21:49:44.129607027+08:00 WARN intergration_test::proxy::proxy_node - Insufficient number of messages, and current number is Mutex { data: 3 }
+2024-10-15T21:49:44.130901569+08:00 INFO intergration_test::proxy::proxy_node - From id : 4, Role : Group Manager Node, Get NodeSetupPhaseFinishFlag
+2024-10-15T21:49:44.130946605+08:00 INFO proxy::gs_tbk_scheme::setup_phase - Setup phase is finished!
+2024-10-15T21:49:44.136646840+08:00 INFO intergration_test::proxy::proxy_node - ProxySetupFinishMsg has send
+2024-10-15T21:49:44.136682967+08:00 INFO proxy::gs_tbk_scheme::keygen_phase - Keygen phase is staring!
+2024-10-15T21:49:45.944746482+08:00 INFO intergration_test::proxy::proxy_node - From id : 4, Role : Group Manager Node, Taget key : Gamma_A, Get NodeProxyKeyGenPhaseTwoP2PMsg
+2024-10-15T21:49:45.992616989+08:00 INFO intergration_test::proxy::proxy_node - From id : 1, Role : Group Manager Node, Taget key : Gamma_A, Get NodeProxyKeyGenPhaseTwoP2PMsg
+2024-10-15T21:49:46.081191217+08:00 INFO intergration_test::proxy::proxy_node - From id : 3, Role : Group Manager Node, Taget key : Gamma_B, Get NodeProxyKeyGenPhaseTwoP2PMsg
+2024-10-15T21:49:46.117367729+08:00 INFO intergration_test::proxy::proxy_node - From id : 2, Role : Group Manager Node, Taget key : Gamma_A, Get NodeProxyKeyGenPhaseTwoP2PMsg
+2024-10-15T21:49:47.101744778+08:00 INFO intergration_test::proxy::proxy_node - From id : 4, Role : Group Manager Node, Taget key : Gamma_B, Get NodeProxyKeyGenPhaseTwoP2PMsg
+2024-10-15T21:49:47.208265065+08:00 INFO intergration_test::proxy::proxy_node - From id : 2, Role : Group Manager Node, Taget key : Gamma_B, Get NodeProxyKeyGenPhaseTwoP2PMsg
+2024-10-15T21:49:47.267763256+08:00 INFO intergration_test::proxy::proxy_node - From id : 3, Role : Group Manager Node, Taget key : Gamma_O, Get NodeProxyKeyGenPhaseTwoP2PMsg
+2024-10-15T21:49:47.315241134+08:00 INFO intergration_test::proxy::proxy_node - From id : 1, Role : Group Manager Node, Taget key : Gamma_B, Get NodeProxyKeyGenPhaseTwoP2PMsg
+2024-10-15T21:49:48.309612626+08:00 INFO intergration_test::proxy::proxy_node - From id : 4, Role : Group Manager Node, Taget key : Gamma_C, Get NodeProxyKeyGenPhaseTwoP2PMsg
+2024-10-15T21:49:48.454301092+08:00 INFO intergration_test::proxy::proxy_node - From id : 3, Role : Group Manager Node, Taget key : Gamma_C, Get NodeProxyKeyGenPhaseTwoP2PMsg
+2024-10-15T21:49:48.486444809+08:00 INFO intergration_test::proxy::proxy_node - From id : 2, Role : Group Manager Node, Taget key : Gamma_O, Get NodeProxyKeyGenPhaseTwoP2PMsg
+2024-10-15T21:49:48.661772161+08:00 INFO intergration_test::proxy::proxy_node - From id : 1, Role : Group Manager Node, Taget key : Gamma_C, Get NodeProxyKeyGenPhaseTwoP2PMsg
+2024-10-15T21:49:49.481775528+08:00 INFO intergration_test::proxy::proxy_node - From id : 4, Role : Group Manager Node, Taget key : Gamma_O, Get NodeProxyKeyGenPhaseTwoP2PMsg
+2024-10-15T21:49:49.636425633+08:00 INFO intergration_test::proxy::proxy_node - From id : 2, Role : Group Manager Node, Taget key : Gamma_C, Get NodeProxyKeyGenPhaseTwoP2PMsg
+2024-10-15T21:49:49.652093827+08:00 INFO intergration_test::proxy::proxy_node - From id : 3, Role : Group Manager Node, Taget key : Gamma_A, Get NodeProxyKeyGenPhaseTwoP2PMsg
+2024-10-15T21:49:49.972417829+08:00 INFO intergration_test::proxy::proxy_node - From id : 1, Role : Group Manager Node, Taget key : Gamma_O, Get NodeProxyKeyGenPhaseTwoP2PMsg
+2024-10-15T21:49:52.403602043+08:00 INFO intergration_test::proxy::proxy_node - ProxyToNodeKeyGenPhaseThreeP2PMsg_B has send
+2024-10-15T21:49:52.406010777+08:00 INFO intergration_test::proxy::proxy_node - ProxyToNodeKeyGenPhaseThreeP2PMsg_B has send
+2024-10-15T21:49:52.407859003+08:00 INFO intergration_test::proxy::proxy_node - ProxyToNodeKeyGenPhaseThreeP2PMsg_B has send
+2024-10-15T21:49:52.411855725+08:00 INFO intergration_test::proxy::proxy_node - ProxyToNodeKeyGenPhaseThreeP2PMsg_B has send
+2024-10-15T21:49:57.064788621+08:00 INFO intergration_test::proxy::proxy_node - ProxyToNodeKeyGenPhaseThreeP2PMsg_C has send
+2024-10-15T21:49:57.066858995+08:00 INFO intergration_test::proxy::proxy_node - ProxyToNodeKeyGenPhaseThreeP2PMsg_C has send
+2024-10-15T21:49:57.067099943+08:00 INFO intergration_test::proxy::proxy_node - ProxyToNodeKeyGenPhaseThreeP2PMsg_C has send
+2024-10-15T21:49:57.069470788+08:00 INFO intergration_test::proxy::proxy_node - ProxyToNodeKeyGenPhaseThreeP2PMsg_C has send
+2024-10-15T21:50:01.728242051+08:00 INFO intergration_test::proxy::proxy_node - ProxyToNodeKeyGenPhaseThreeP2PMsg_A has send
+2024-10-15T21:50:01.730391879+08:00 INFO intergration_test::proxy::proxy_node - ProxyToNodeKeyGenPhaseThreeP2PMsg_A has send
+2024-10-15T21:50:01.732637004+08:00 INFO intergration_test::proxy::proxy_node - ProxyToNodeKeyGenPhaseThreeP2PMsg_A has send
+2024-10-15T21:50:01.734935764+08:00 INFO intergration_test::proxy::proxy_node - ProxyToNodeKeyGenPhaseThreeP2PMsg_A has send
+2024-10-15T21:50:06.456796656+08:00 INFO intergration_test::proxy::proxy_node - ProxyToNodeKeyGenPhaseThreeP2PMsg_O has send
+2024-10-15T21:50:06.458693568+08:00 INFO intergration_test::proxy::proxy_node - ProxyToNodeKeyGenPhaseThreeP2PMsg_O has send
+2024-10-15T21:50:06.460998582+08:00 INFO intergration_test::proxy::proxy_node - ProxyToNodeKeyGenPhaseThreeP2PMsg_O has send
+2024-10-15T21:50:06.463355002+08:00 INFO intergration_test::proxy::proxy_node - ProxyToNodeKeyGenPhaseThreeP2PMsg_O has send
+2024-10-15T21:50:06.871923986+08:00 INFO intergration_test::proxy::proxy_node - From id : 3, Role : Group Manager Node,  Get NodeToProxyKeyGenPhaseFiveP2PMsg
+2024-10-15T21:50:06.875047130+08:00 INFO intergration_test::proxy::proxy_node - From id : 1, Role : Group Manager Node,  Get NodeToProxyKeyGenPhaseFiveP2PMsg
+2024-10-15T21:50:07.039432135+08:00 INFO intergration_test::proxy::proxy_node - From id : 2, Role : Group Manager Node,  Get NodeToProxyKeyGenPhaseFiveP2PMsg
+2024-10-15T21:50:07.054018790+08:00 INFO intergration_test::proxy::proxy_node - From id : 4, Role : Group Manager Node,  Get NodeToProxyKeyGenPhaseFiveP2PMsg
+2024-10-15T21:50:08.340275714+08:00 INFO proxy::gs_tbk_scheme::keygen_phase - Keygen phase is finished!
+2024-10-15T21:50:08.346888525+08:00 INFO intergration_test::proxy::proxy_node - ProxyToNodesKeyGenPhasefiveBroadcastMsg has send

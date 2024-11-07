@@ -1,0 +1,44 @@
+2024-10-14T11:35:35.515867092+08:00 INFO intergration_test::node::node2::node2 - node2 is listening on 127.0.0.1:50002
+2024-10-14T11:35:35.516040873+08:00 INFO node::gs_tbk_scheme::setup_phase - Setup phase is starting!
+2024-10-14T11:35:37.823097366+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxySetupPhaseBroadcastMsg
+2024-10-14T11:35:37.824545290+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Send NodeToProxySetupFinishMsg
+2024-10-14T11:35:37.825128419+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxySetupPhaseFinishFlag
+2024-10-14T11:35:37.825218143+08:00 INFO node::gs_tbk_scheme::setup_phase - Setup phase is finished!
+2024-10-14T11:35:37.952285189+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyKeyGenPhaseStartFlag
+2024-10-14T11:35:38.035409177+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyKeyGenPhaseOneBroadcastMsg
+2024-10-14T11:35:38.035542805+08:00 INFO intergration_test::node::node2::node2 - Keygen phase is staring!
+2024-10-14T11:35:38.073496729+08:00 INFO node::gs_tbk_scheme::keygen_phase - Key Gamma_A is generating!
+2024-10-14T11:35:38.129312808+08:00 INFO node::gs_tbk_scheme::keygen_phase - Key Gamma_B is generating!
+2024-10-14T11:35:38.185317478+08:00 INFO node::gs_tbk_scheme::keygen_phase - Key Gamma_O is generating!
+2024-10-14T11:35:38.241117624+08:00 INFO node::gs_tbk_scheme::keygen_phase - Key Gamma_C is generating!
+2024-10-14T11:35:38.259689781+08:00 INFO intergration_test::node::node2::node2 - NodeKeyGenPhaseOneBroadcastMsg has sent
+2024-10-14T11:35:38.259920861+08:00 INFO intergration_test::node::node2::node2 - NodeKeyGenPhaseOneBroadcastMsg has sent
+2024-10-14T11:35:38.260108916+08:00 INFO intergration_test::node::node2::node2 - NodeKeyGenPhaseOneBroadcastMsg has sent
+2024-10-14T11:35:38.260289706+08:00 INFO intergration_test::node::node2::node2 - NodeKeyGenPhaseOneBroadcastMsg has sent
+2024-10-14T11:35:38.267261634+08:00 INFO intergration_test::node::node2::node2 - From id : 3 ,Role : Group Manager Node ,Taget : Gamma_A Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-14T11:35:38.268122522+08:00 INFO intergration_test::node::node2::node2 - From id : 4 ,Role : Group Manager Node ,Taget : Gamma_A Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-14T11:35:38.268175202+08:00 INFO intergration_test::node::node2::node2 - From id : 3 ,Role : Group Manager Node ,Taget : Gamma_B Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-14T11:35:38.275119455+08:00 INFO intergration_test::node::node2::node2 - From id : 3 ,Role : Group Manager Node ,Taget : Gamma_O Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-14T11:35:38.275769944+08:00 INFO intergration_test::node::node2::node2 - From id : 3 ,Role : Group Manager Node ,Taget : Gamma_C Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-14T11:35:38.277221675+08:00 INFO intergration_test::node::node2::node2 - From id : 4 ,Role : Group Manager Node ,Taget : Gamma_B Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-14T11:35:38.282834192+08:00 INFO intergration_test::node::node2::node2 - From id : 4 ,Role : Group Manager Node ,Taget : Gamma_O Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-14T11:35:38.290524883+08:00 INFO intergration_test::node::node2::node2 - From id : 4 ,Role : Group Manager Node ,Taget : Gamma_C Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-14T11:35:38.320897571+08:00 INFO intergration_test::node::node2::node2 - From id : 2 ,Role : Group Manager Node ,Taget : Gamma_A Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-14T11:35:39.356700489+08:00 INFO intergration_test::node::node2::node2 - NodeToProxyKeyGenPhaseTwoP2PMsg_A has sent
+2024-10-14T11:35:39.364366157+08:00 INFO intergration_test::node::node2::node2 - From id : 2 ,Role : Group Manager Node ,Taget : Gamma_C Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-14T11:35:39.364528875+08:00 INFO intergration_test::node::node2::node2 - From id : 2 ,Role : Group Manager Node ,Taget : Gamma_O Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-14T11:35:39.364574269+08:00 INFO intergration_test::node::node2::node2 - From id : 2 ,Role : Group Manager Node ,Taget : Gamma_B Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-14T11:35:40.399811559+08:00 INFO intergration_test::node::node2::node2 - NodeToProxyKeyGenPhaseTwoP2PMsg_C has sent
+2024-10-14T11:35:41.496316145+08:00 INFO intergration_test::node::node2::node2 - NodeToProxyKeyGenPhaseTwoP2PMsg_O has sent
+2024-10-14T11:35:42.532231469+08:00 INFO intergration_test::node::node2::node2 - NodeToProxyKeyGenPhaseTwoP2PMsg_B has sent
+2024-10-14T11:35:45.660876846+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodeKeyGenPhaseThreeP2PMsg
+2024-10-14T11:35:45.759069379+08:00 INFO node::gs_tbk_scheme::keygen_phase - Gamma_A is generated!
+2024-10-14T11:35:49.754102665+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodeKeyGenPhaseThreeP2PMsg
+2024-10-14T11:35:49.833480889+08:00 INFO node::gs_tbk_scheme::keygen_phase - Gamma_C is generated!
+2024-10-14T11:35:53.815690591+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodeKeyGenPhaseThreeP2PMsg
+2024-10-14T11:35:53.913944173+08:00 INFO node::gs_tbk_scheme::keygen_phase - Gamma_O is generated!
+2024-10-14T11:35:57.865796031+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodeKeyGenPhaseThreeP2PMsg
+2024-10-14T11:35:57.963934990+08:00 INFO node::gs_tbk_scheme::keygen_phase - Gamma_B is generated!
+2024-10-14T11:35:58.105301277+08:00 INFO intergration_test::node::node2::node2 - NodeToProxyKeyGenPhaseFiveP2PMsg has sent
+2024-10-14T11:35:59.576445100+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxyToNodesKeyGenPhasefiveBroadcastMsg
+2024-10-14T11:35:59.576540797+08:00 INFO node::gs_tbk_scheme::keygen_phase - Keygen phase is finished!

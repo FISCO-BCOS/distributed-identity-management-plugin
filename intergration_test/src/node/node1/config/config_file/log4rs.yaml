@@ -1,0 +1,15 @@
+refresh_rate: 30 seconds
+
+appenders:
+  file:
+    kind: file
+    path: "src/node/node1/logs/node.log"
+    encoder:
+      pattern: "{d} {l} {M} - {m}{n}"
+    append: false
+
+root:
+  level: info
+  appenders:
+    - file
+

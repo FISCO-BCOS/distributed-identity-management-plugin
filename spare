@@ -1,0 +1,40 @@
+        // let path_2 = format!("src/user/user{}/info/personal_info.json", self.id.unwrap()); 
+        // let mut user1_path  = std::env::current_dir().unwrap();
+        // user1_path.push(path_2);
+        // info!("Personal_info is finished!");
+        // println!("Personal_info is finished!");
+
+        // // sdk-personal-info
+        // let script_path2 = "/home/superzheng/fisco/personal-info/personal-info/dist/info_run.sh";
+        // let script_args2 = ["register",&self.name,user1_path.to_str().unwrap()];
+
+        // let java_project_dir2 = PathBuf::from("/home/superzheng/fisco/personal-info/personal-info/dist");
+        
+        // env::set_current_dir(&java_project_dir2)
+        //     .expect("Failed to change current directory");
+        // //sdk-personal-info
+        // let mut child2 = Command::new("bash")
+        // .arg(script_path2)
+        // .arg(script_args2[0])
+        // .arg(script_args2[1])
+        // .arg(script_args2[2])
+        // .stdin(Stdio::null())
+        // .stdout(Stdio::piped())
+        // .stderr(Stdio::piped())
+        // .spawn()
+        // .expect("Failed to execute Bash script");
+
+        // let output2 = child2.wait_with_output().expect("Failed to read Bash script output");
+
+        // if output2.status.success() {
+        //     info!("Personal Info Register successfully!");
+
+        // } else {
+        //     let stderr = str::from_utf8(&output2.stderr)
+        //       .expect("Invalid UTF-8 sequence in stderr");
+        //     info!("Personal Info egister failed: {}", stderr.trim());
+        // }
+
+        // 切换回原来的工作目录
+        //env::set_current_dir(original_dir)
+        //.expect("Failed to change current directory");

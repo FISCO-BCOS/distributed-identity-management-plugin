@@ -1,0 +1,242 @@
+2024-10-17T20:57:30.821564391+08:00 INFO intergration_test::node::node1::node1 - node1 is listening on 172.28.149.148:50001
+2024-10-17T20:57:30.821751898+08:00 INFO node::gs_tbk_scheme::setup_phase - Setup phase is starting!
+2024-10-17T20:57:43.993943403+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxySetupPhaseBroadcastMsg
+2024-10-17T20:57:43.995310123+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Send NodeToProxySetupFinishMsg
+2024-10-17T20:57:44.004718220+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxySetupPhaseFinishFlag
+2024-10-17T20:57:44.004770604+08:00 INFO node::gs_tbk_scheme::setup_phase - Setup phase is finished!
+2024-10-17T20:57:44.135910368+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyKeyGenPhaseStartFlag
+2024-10-17T20:57:44.294988064+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyKeyGenPhaseOneBroadcastMsg
+2024-10-17T20:57:44.295154135+08:00 INFO intergration_test::node::node1::node1 - Keygen phase is staring!
+2024-10-17T20:57:44.364930174+08:00 INFO node::gs_tbk_scheme::keygen_phase - Key Gamma_A is generating!
+2024-10-17T20:57:44.467049951+08:00 INFO node::gs_tbk_scheme::keygen_phase - Key Gamma_B is generating!
+2024-10-17T20:57:44.537118342+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node ,Taget : Gamma_A Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-17T20:57:44.537945226+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node ,Taget : Gamma_O Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-17T20:57:44.539141931+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node ,Taget : Gamma_B Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-17T20:57:44.570577480+08:00 INFO node::gs_tbk_scheme::keygen_phase - Key Gamma_O is generating!
+2024-10-17T20:57:44.576659613+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node ,Taget : Gamma_C Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-17T20:57:44.578530449+08:00 INFO intergration_test::node::node1::node1 - From id : 4 ,Role : Group Manager Node ,Taget : Gamma_B Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-17T20:57:44.579229451+08:00 INFO intergration_test::node::node1::node1 - From id : 4 ,Role : Group Manager Node ,Taget : Gamma_C Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-17T20:57:44.609317732+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node ,Taget : Gamma_C Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-17T20:57:44.610025296+08:00 INFO intergration_test::node::node1::node1 - From id : 4 ,Role : Group Manager Node ,Taget : Gamma_O Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-17T20:57:44.612947778+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node ,Taget : Gamma_B Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-17T20:57:44.639978695+08:00 INFO intergration_test::node::node1::node1 - From id : 4 ,Role : Group Manager Node ,Taget : Gamma_A Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-17T20:57:44.640508831+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node ,Taget : Gamma_O Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-17T20:57:44.643905808+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node ,Taget : Gamma_A Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-10-17T20:57:44.675523595+08:00 INFO node::gs_tbk_scheme::keygen_phase - Key Gamma_C is generating!
+2024-10-17T20:57:44.715454728+08:00 INFO intergration_test::node::node1::node1 - NodeKeyGenPhaseOneBroadcastMsg has sent
+2024-10-17T20:57:44.721542472+08:00 INFO intergration_test::node::node1::node1 - NodeKeyGenPhaseOneBroadcastMsg has sent
+2024-10-17T20:57:44.727905790+08:00 INFO intergration_test::node::node1::node1 - NodeKeyGenPhaseOneBroadcastMsg has sent
+2024-10-17T20:57:44.734143659+08:00 INFO intergration_test::node::node1::node1 - NodeKeyGenPhaseOneBroadcastMsg has sent
+2024-10-17T20:57:46.805575009+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyKeyGenPhaseTwoP2PMsg_C has sent
+2024-10-17T20:57:48.876511476+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyKeyGenPhaseTwoP2PMsg_B has sent
+2024-10-17T20:57:50.959415360+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyKeyGenPhaseTwoP2PMsg_O has sent
+2024-10-17T20:57:53.046878340+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyKeyGenPhaseTwoP2PMsg_A has sent
+2024-10-17T20:57:53.645757258+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodeKeyGenPhaseThreeP2PMsg
+2024-10-17T20:57:53.801380519+08:00 INFO node::gs_tbk_scheme::keygen_phase - Gamma_B is generated!
+2024-10-17T20:57:58.107668899+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodeKeyGenPhaseThreeP2PMsg
+2024-10-17T20:57:58.266011810+08:00 INFO node::gs_tbk_scheme::keygen_phase - Gamma_C is generated!
+2024-10-17T20:58:02.543495583+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodeKeyGenPhaseThreeP2PMsg
+2024-10-17T20:58:02.698617647+08:00 INFO node::gs_tbk_scheme::keygen_phase - Gamma_O is generated!
+2024-10-17T20:58:07.039220977+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodeKeyGenPhaseThreeP2PMsg
+2024-10-17T20:58:07.197111997+08:00 INFO node::gs_tbk_scheme::keygen_phase - Gamma_A is generated!
+2024-10-17T20:58:07.403301288+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyKeyGenPhaseFiveP2PMsg has sent
+2024-10-17T20:58:08.993218133+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesKeyGenPhasefiveBroadcastMsg
+2024-10-17T20:58:08.993374125+08:00 INFO node::gs_tbk_scheme::keygen_phase - Keygen phase is finished!
+2024-10-17T20:58:19.265952670+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseTwoBroadcastMsg about user 1
+2024-10-17T20:58:19.266106766+08:00 INFO node::gs_tbk_scheme::join_issue_phase - User 1 is joining!
+2024-10-17T20:58:19.748168184+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg about user 1
+2024-10-17T20:58:19.752788704+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg about user 1
+2024-10-17T20:58:20.224502128+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg has sent to 2 about user 1
+2024-10-17T20:58:20.226528697+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg has sent to 3 about user 1
+2024-10-17T20:58:25.283768954+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg sent to 2 about user 1
+2024-10-17T20:58:25.637973394+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg about user 1
+2024-10-17T20:58:25.737752273+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg about user 1
+2024-10-17T20:58:25.944610093+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg about user 2
+2024-10-17T20:58:25.992684541+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg about user 2
+2024-10-17T20:58:26.608602031+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg about user 3
+2024-10-17T20:58:28.392198316+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg sent to 3 about user 1
+2024-10-17T20:58:28.392329947+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseTwoBroadcastMsg about user 2
+2024-10-17T20:58:28.392371016+08:00 INFO node::gs_tbk_scheme::join_issue_phase - User 2 is joining!
+2024-10-17T20:58:28.979651110+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg about user 3
+2024-10-17T20:58:28.981110612+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg has sent to 2 about user 2
+2024-10-17T20:58:28.983037385+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg has sent to 3 about user 2
+2024-10-17T20:58:28.983119812+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseTwoBroadcastMsg about user 3
+2024-10-17T20:58:28.983150087+08:00 INFO node::gs_tbk_scheme::join_issue_phase - User 3 is joining!
+2024-10-17T20:58:29.730533850+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg has sent to 2 about user 3
+2024-10-17T20:58:29.732487465+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg has sent to 3 about user 3
+2024-10-17T20:58:34.238255208+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyJoinIssuePhaseTwoMtAPhaseFinalP2PMsg have sent to proxy about user 1
+2024-10-17T20:58:38.141011885+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg sent to 3 about user 2
+2024-10-17T20:58:38.146632700+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg about user 4
+2024-10-17T20:58:38.255207185+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseThreeBroadcastMsg about user 1
+2024-10-17T20:58:38.360559560+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg about user 2
+2024-10-17T20:58:40.190062269+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg about user 2
+2024-10-17T20:58:40.775358874+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg about user 5
+2024-10-17T20:58:41.228251013+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg sent to 2 about user 2
+2024-10-17T20:58:44.085405315+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg about user 4
+2024-10-17T20:58:44.085931798+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg sent to 2 about user 3
+2024-10-17T20:58:44.087793518+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg about user 5
+2024-10-17T20:58:44.335314562+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg about user 3
+2024-10-17T20:58:44.403159965+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg about user 3
+2024-10-17T20:58:49.300334671+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg sent to 3 about user 3
+2024-10-17T20:58:49.300483855+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseTwoBroadcastMsg about user 4
+2024-10-17T20:58:49.300529207+08:00 INFO node::gs_tbk_scheme::join_issue_phase - User 4 is joining!
+2024-10-17T20:58:50.525247251+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg has sent to 2 about user 4
+2024-10-17T20:58:50.527383043+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg has sent to 3 about user 4
+2024-10-17T20:58:50.527495685+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseTwoBroadcastMsg about user 5
+2024-10-17T20:58:50.527529454+08:00 INFO node::gs_tbk_scheme::join_issue_phase - User 5 is joining!
+2024-10-17T20:58:51.769057003+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg has sent to 2 about user 5
+2024-10-17T20:58:51.771255226+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeJoinIssuePhaseTwoMtAPhaseOneP2PMsg has sent to 3 about user 5
+2024-10-17T20:58:55.829837298+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg sent to 3 about user 4
+2024-10-17T20:58:55.880530230+08:00 INFO intergration_test::node::node1::node1 - ProxyToNodesJoinIssuePhaseThreeBroadcastMsg has sent about user 1
+2024-10-17T20:59:00.600452510+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseFourBroadcastMsg about user 1
+2024-10-17T20:59:00.600675729+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyJoinIssuePhaseTwoMtAPhaseFinalP2PMsg have sent to proxy about user 2
+2024-10-17T20:59:00.765532801+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg about user 5
+2024-10-17T20:59:00.984442262+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg about user 4
+2024-10-17T20:59:00.993196930+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseThreeBroadcastMsg about user 2
+2024-10-17T20:59:01.379969763+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg about user 4
+2024-10-17T20:59:03.661559938+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node  Get NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg about user 5
+2024-10-17T20:59:05.385821255+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg sent to 3 about user 5
+2024-10-17T20:59:09.902119287+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg sent to 2 about user 4
+2024-10-17T20:59:12.772076267+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeJoinIssuePhaseTwoMtAPhaseTwoP2PMsg sent to 2 about user 5
+2024-10-17T20:59:17.288103346+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyJoinIssuePhaseTwoMtAPhaseFinalP2PMsg have sent to proxy about user 3
+2024-10-17T20:59:17.339790797+08:00 INFO intergration_test::node::node1::node1 - ProxyToNodesJoinIssuePhaseFourBroadcastMsg has sent about user 1
+2024-10-17T20:59:21.868328506+08:00 INFO intergration_test::node::node1::node1 - ProxyToNodesJoinIssuePhaseThreeBroadcastMsg has sent about user 2
+2024-10-17T20:59:21.928329907+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseFiveBroadcastMsg about user 1
+2024-10-17T20:59:21.953789504+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseThreeBroadcastMsg about user 3
+2024-10-17T20:59:22.020704432+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseFourBroadcastMsg about user 2
+2024-10-17T20:59:25.745408903+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyJoinIssuePhaseTwoMtAPhaseFinalP2PMsg have sent to proxy about user 4
+2024-10-17T20:59:30.192507759+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseThreeBroadcastMsg about user 4
+2024-10-17T20:59:30.192746866+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyJoinIssuePhaseTwoMtAPhaseFinalP2PMsg have sent to proxy about user 5
+2024-10-17T20:59:30.258268720+08:00 INFO node::gs_tbk_scheme::join_issue_phase - User 1's key is generated!
+2024-10-17T20:59:30.259004715+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyJoinIssuePhaseFlag has sent about user 1
+2024-10-17T20:59:30.340063383+08:00 INFO intergration_test::node::node1::node1 - ProxyToNodesJoinIssuePhaseThreeBroadcastMsg has sent about user 3
+2024-10-17T20:59:30.420603205+08:00 INFO intergration_test::node::node1::node1 - ProxyToNodesJoinIssuePhaseFourBroadcastMsg has sent about user 2
+2024-10-17T20:59:30.501636407+08:00 INFO intergration_test::node::node1::node1 - ProxyToNodesJoinIssuePhaseThreeBroadcastMsg has sent about user 4
+2024-10-17T20:59:30.559391335+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseThreeBroadcastMsg about user 5
+2024-10-17T20:59:30.640200234+08:00 INFO intergration_test::node::node1::node1 - ProxyToNodesJoinIssuePhaseThreeBroadcastMsg has sent about user 5
+2024-10-17T20:59:30.690574663+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesRevokePhaseOneBroadcastMsg about user 1
+2024-10-17T20:59:30.771751694+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseFiveBroadcastMsg about user 2
+2024-10-17T20:59:30.836113353+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseFourBroadcastMsg about user 3
+2024-10-17T20:59:30.895369026+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseFourBroadcastMsg about user 4
+2024-10-17T20:59:30.909710728+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg about user 1
+2024-10-17T20:59:30.919650709+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg about user 1
+2024-10-17T20:59:30.971661694+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseFourBroadcastMsg about user 5
+2024-10-17T20:59:31.123164420+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg sent to node : 2 about user 1
+2024-10-17T20:59:31.125366738+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg sent to node : 3 about user 1
+2024-10-17T20:59:31.255074008+08:00 INFO node::gs_tbk_scheme::join_issue_phase - User 2's key is generated!
+2024-10-17T20:59:31.255631142+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyJoinIssuePhaseFlag has sent about user 2
+2024-10-17T20:59:31.335089725+08:00 INFO intergration_test::node::node1::node1 - ProxyToNodesJoinIssuePhaseFourBroadcastMsg has sent about user 3
+2024-10-17T20:59:31.414504774+08:00 INFO intergration_test::node::node1::node1 - ProxyToNodesJoinIssuePhaseFourBroadcastMsg has sent about user 4
+2024-10-17T20:59:31.442329670+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesRevokePhaseOneBroadcastMsg about user 2
+2024-10-17T20:59:31.498071237+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseFiveBroadcastMsg about user 3
+2024-10-17T20:59:31.585792429+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseFiveBroadcastMsg about user 4
+2024-10-17T20:59:33.950288955+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg have sent to 2 about user 1
+2024-10-17T20:59:34.062609524+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg about user 1
+2024-10-17T20:59:34.175114377+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg about user 2
+2024-10-17T20:59:34.177680021+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg about user 1
+2024-10-17T20:59:34.219716077+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg about user 2
+2024-10-17T20:59:36.524112947+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg have sent to 3 about user 1
+2024-10-17T20:59:36.605277199+08:00 INFO intergration_test::node::node1::node1 - ProxyToNodesJoinIssuePhaseFourBroadcastMsg has sent about user 5
+2024-10-17T20:59:37.031556567+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg sent to node : 2 about user 2
+2024-10-17T20:59:37.033779700+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg sent to node : 3 about user 2
+2024-10-17T20:59:37.085541972+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesJoinIssuePhaseFiveBroadcastMsg about user 5
+2024-10-17T20:59:37.233053692+08:00 INFO node::gs_tbk_scheme::join_issue_phase - User 3's key is generated!
+2024-10-17T20:59:37.233876662+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyJoinIssuePhaseFlag has sent about user 3
+2024-10-17T20:59:37.495262069+08:00 INFO node::gs_tbk_scheme::join_issue_phase - User 4's key is generated!
+2024-10-17T20:59:37.523563608+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesRevokePhaseOneBroadcastMsg about user 3
+2024-10-17T20:59:37.523755919+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyJoinIssuePhaseFlag has sent about user 4
+2024-10-17T20:59:41.848577107+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg about user 4
+2024-10-17T20:59:41.848671959+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg about user 3
+2024-10-17T20:59:41.848922019+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg about user 3
+2024-10-17T20:59:41.849173775+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg about user 4
+2024-10-17T20:59:41.849963971+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg have sent to 2 about user 2
+2024-10-17T20:59:41.911233257+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesRevokePhaseOneBroadcastMsg about user 4
+2024-10-17T20:59:41.970226165+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg about user 2
+2024-10-17T20:59:42.024995052+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg about user 2
+2024-10-17T20:59:43.060445327+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyRevokePhaseTwoMtAPhaseFinalP2PMsg have sent to proxy about user 1
+2024-10-17T20:59:44.487636119+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg have sent to 3 about user 2
+2024-10-17T20:59:44.526180089+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesRevokePhaseTwoBroadcastMsg about user 1
+2024-10-17T20:59:44.812606228+08:00 INFO node::gs_tbk_scheme::join_issue_phase - User 5's key is generated!
+2024-10-17T20:59:44.813221150+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyJoinIssuePhaseFlag has sent about user 5
+2024-10-17T20:59:45.236137955+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg sent to node : 2 about user 3
+2024-10-17T20:59:45.237853367+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg sent to node : 3 about user 3
+2024-10-17T20:59:45.265245189+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesRevokePhaseOneBroadcastMsg about user 5
+2024-10-17T20:59:46.803473579+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg about user 5
+2024-10-17T20:59:46.935857099+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg about user 5
+2024-10-17T20:59:47.794973874+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg have sent to 3 about user 3
+2024-10-17T20:59:50.349907873+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg have sent to 2 about user 3
+2024-10-17T20:59:50.467563378+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg about user 3
+2024-10-17T20:59:50.509711739+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg about user 3
+2024-10-17T20:59:50.842523587+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg sent to node : 2 about user 4
+2024-10-17T20:59:50.844957635+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg sent to node : 3 about user 4
+2024-10-17T20:59:53.437785831+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg have sent to 3 about user 4
+2024-10-17T20:59:53.548567655+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg about user 4
+2024-10-17T20:59:53.607362706+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg about user 4
+2024-10-17T20:59:54.977173219+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg have sent to 2 about user 4
+2024-10-17T20:59:58.489142867+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyRevokePhaseTwoMtAPhaseFinalP2PMsg have sent to proxy about user 2
+2024-10-17T20:59:58.508743336+08:00 INFO node::gs_tbk_scheme::revoke_phase - 1's ei info has been finished
+2024-10-17T20:59:58.509253153+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyRevokePhaseTwoFlag has sent about user 1
+2024-10-17T20:59:58.930069857+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesVerifyPhaseBroadcastMsg about user 1
+2024-10-17T20:59:58.931753332+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg sent to node : 2 about user 5
+2024-10-17T20:59:58.933712746+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeRevokePhaseOneMtAPhaseOneP2PMsg sent to node : 3 about user 5
+2024-10-17T20:59:58.976058674+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesRevokePhaseTwoBroadcastMsg about user 2
+2024-10-17T21:00:01.322371752+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg have sent to 2 about user 5
+2024-10-17T21:00:03.839679893+08:00 INFO intergration_test::node::node1::node1 - NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg have sent to 3 about user 5
+2024-10-17T21:00:03.953223619+08:00 INFO intergration_test::node::node1::node1 - From id : 3 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg about user 5
+2024-10-17T21:00:03.990775824+08:00 INFO intergration_test::node::node1::node1 - From id : 2 ,Role : Group Manager Node  Get NodeToNodeRevokePhaseOneMtAPhaseTwoP2PMsg about user 5
+2024-10-17T21:00:07.381318451+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyRevokePhaseTwoMtAPhaseFinalP2PMsg have sent to proxy about user 3
+2024-10-17T21:00:10.883462596+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyRevokePhaseTwoMtAPhaseFinalP2PMsg have sent to proxy about user 4
+2024-10-17T21:00:10.925209637+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesRevokePhaseTwoBroadcastMsg about user 3
+2024-10-17T21:00:10.998138743+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesRevokePhaseTwoBroadcastMsg about user 4
+2024-10-17T21:00:14.244121450+08:00 WARN node::gs_tbk_scheme::verify_phase - User 1 Proxy::verify_phase() : invalid signature
+2024-10-17T21:00:14.244291733+08:00 INFO node::gs_tbk_scheme::open_phase - Open Phase is starting
+2024-10-17T21:00:14.292925544+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyOpenPhaseOneP2PMsg has sent about 1
+2024-10-17T21:00:14.305276908+08:00 INFO node::gs_tbk_scheme::revoke_phase - 2's ei info has been finished
+2024-10-17T21:00:14.305688750+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyRevokePhaseTwoFlag has sent about user 2
+2024-10-17T21:00:17.460011855+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesVerifyPhaseBroadcastMsg about user 2
+2024-10-17T21:00:17.460225434+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyRevokePhaseTwoMtAPhaseFinalP2PMsg have sent to proxy about user 5
+2024-10-17T21:00:17.474075642+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesOpenPhaseOneBroadcastMsg about user 1
+2024-10-17T21:00:17.479698682+08:00 INFO node::gs_tbk_scheme::revoke_phase - 3's ei info has been finished
+2024-10-17T21:00:17.480126259+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyRevokePhaseTwoFlag has sent about user 3
+2024-10-17T21:00:17.499472884+08:00 INFO node::gs_tbk_scheme::revoke_phase - 4's ei info has been finished
+2024-10-17T21:00:17.499906725+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyRevokePhaseTwoFlag has sent about user 4
+2024-10-17T21:00:22.507409851+08:00 WARN node::gs_tbk_scheme::verify_phase - User 2 Proxy::verify_phase() : invalid hash
+2024-10-17T21:00:22.507610425+08:00 INFO node::gs_tbk_scheme::open_phase - Open Phase is starting
+2024-10-17T21:00:22.585454239+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesVerifyPhaseBroadcastMsg about user 3
+2024-10-17T21:00:22.585592885+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesVerifyPhaseBroadcastMsg about user 4
+2024-10-17T21:00:22.626863745+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesRevokePhaseTwoBroadcastMsg about user 5
+2024-10-17T21:00:22.627046102+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyOpenPhaseOneP2PMsg has sent about 2
+2024-10-17T21:00:22.640972593+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyOpenPhaseTwoP2PMsg has sent about 1
+2024-10-17T21:00:27.757693332+08:00 INFO node::gs_tbk_scheme::verify_phase - User 3 Node::verify_phase() : verify successfully
+2024-10-17T21:00:27.757901271+08:00 INFO intergration_test::node::node1::node1 - User : 3 has verified
+2024-10-17T21:00:31.938248391+08:00 INFO node::gs_tbk_scheme::verify_phase - User 4 Node::verify_phase() : verify successfully
+2024-10-17T21:00:31.938427540+08:00 INFO intergration_test::node::node1::node1 - User : 4 has verified
+2024-10-17T21:00:31.951279565+08:00 INFO node::gs_tbk_scheme::revoke_phase - 5's ei info has been finished
+2024-10-17T21:00:31.961024325+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyRevokePhaseTwoFlag has sent about user 5
+2024-10-17T21:00:31.961924300+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesVerifyPhaseBroadcastMsg about user 5
+2024-10-17T21:00:31.967838589+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesOpenPhaseOneBroadcastMsg about user 2
+2024-10-17T21:00:31.968121581+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesOpenPhaseTwoBroadcastMsg about user 1
+2024-10-17T21:00:36.221613963+08:00 INFO node::gs_tbk_scheme::verify_phase - User 5 Node::verify_phase() : verify successfully
+2024-10-17T21:00:36.221850285+08:00 INFO intergration_test::node::node1::node1 - User : 5 has verified
+2024-10-17T21:00:36.230704277+08:00 INFO intergration_test::node::node1::node1 - NodeToProxyOpenPhaseTwoP2PMsg has sent about 2
+2024-10-17T21:00:36.230779444+08:00 INFO node::gs_tbk_scheme::open_phase - Find the user successfully
+2024-10-17T21:00:36.247017454+08:00 INFO node::gs_tbk_scheme::open_phase - ----------------------------------------------------------------------------------------
+2024-10-17T21:00:36.247053403+08:00 INFO node::gs_tbk_scheme::open_phase - This user 1 maybe used a invaild key!
+2024-10-17T21:00:36.247063912+08:00 INFO node::gs_tbk_scheme::open_phase - This user 1 maybe malicious!
+2024-10-17T21:00:36.247072170+08:00 INFO node::gs_tbk_scheme::open_phase - The infomation is: 
+2024-10-17T21:00:36.247080230+08:00 INFO node::gs_tbk_scheme::open_phase - user_id:1
+2024-10-17T21:00:36.247092764+08:00 INFO node::gs_tbk_scheme::open_phase - user_name:user1_test_42
+2024-10-17T21:00:36.247102941+08:00 INFO node::gs_tbk_scheme::open_phase - user address:"172.28.45.186:60001"
+2024-10-17T21:00:36.247113025+08:00 INFO node::gs_tbk_scheme::open_phase - ----------------------------------------------------------------------------------------
+2024-10-17T21:00:36.247121554+08:00 INFO node::gs_tbk_scheme::open_phase - Open phase is finished!
+2024-10-17T21:00:36.266106127+08:00 INFO intergration_test::node::node1::node1 - From id : 0 ,Role : Proxy  Get ProxyToNodesOpenPhaseTwoBroadcastMsg about user 2
+2024-10-17T21:00:36.266157542+08:00 INFO node::gs_tbk_scheme::open_phase - Find the user successfully
+2024-10-17T21:00:36.282283751+08:00 INFO node::gs_tbk_scheme::open_phase - ----------------------------------------------------------------------------------------
+2024-10-17T21:00:36.282320561+08:00 INFO node::gs_tbk_scheme::open_phase - This user 2 maybe used a invaild key!
+2024-10-17T21:00:36.282337478+08:00 INFO node::gs_tbk_scheme::open_phase - This user 2 maybe malicious!
+2024-10-17T21:00:36.282347032+08:00 INFO node::gs_tbk_scheme::open_phase - The infomation is: 
+2024-10-17T21:00:36.282354686+08:00 INFO node::gs_tbk_scheme::open_phase - user_id:2
+2024-10-17T21:00:36.282366143+08:00 INFO node::gs_tbk_scheme::open_phase - user_name:user2_test_42
+2024-10-17T21:00:36.282375724+08:00 INFO node::gs_tbk_scheme::open_phase - user address:"172.28.45.186:60002"
+2024-10-17T21:00:36.282385141+08:00 INFO node::gs_tbk_scheme::open_phase - ----------------------------------------------------------------------------------------
+2024-10-17T21:00:36.282393812+08:00 INFO node::gs_tbk_scheme::open_phase - Open phase is finished!

@@ -1,0 +1,14 @@
+2024-10-10T10:09:43.045371019+08:00 INFO intergration_test::user::user2::user2 - User is listening on 127.0.0.1:60002
+2024-10-10T10:09:43.045517989+08:00 INFO user::gs_tbk_scheme::join_issue_phase - Join phase is starting!
+2024-10-10T10:09:43.045735077+08:00 INFO intergration_test::user::user2::user2 - UserJoinIssuePhaseStartFlag have sent
+2024-10-10T10:09:43.267594341+08:00 INFO intergration_test::user::user2::user2 - From id : 0,Role : Proxy Get ProxyToUserJoinIssuePhaseOneP2PMsg
+2024-10-10T10:09:43.365300697+08:00 INFO intergration_test::user::user2::user2 - UserToProxyJoinIssuePhaseTwoP2PMsg has sent
+2024-10-10T10:09:57.630444227+08:00 INFO intergration_test::user::user2::user2 - From id : 0,Role : Proxy Get ProxyToUserJoinIssuePhaseThreeP2PMsg
+2024-10-10T10:09:57.873766206+08:00 INFO user::gs_tbk_scheme::join_issue_phase - Join phase is finished!
+2024-10-10T10:09:57.957010083+08:00 INFO intergration_test::user::user2::user2 - RevokePhaseStartFlag has sent
+2024-10-10T10:10:35.547448836+08:00 INFO intergration_test::user::user2::user2 - From id : 0, Role : Proxy Get ProxyToUserRevokePhaseBroadcastMsg
+2024-10-10T10:10:35.561635866+08:00 INFO user::gs_tbk_scheme::sign_phase - Sign phase is starting!
+2024-10-10T10:10:36.226708899+08:00 INFO user::gs_tbk_scheme::sign_phase - Sign phase is finished!
+2024-10-10T10:10:37.930805525+08:00 INFO user::gs_tbk_scheme::sign_phase - Register successfully!
+2024-10-10T10:10:39.569486780+08:00 INFO user::gs_tbk_scheme::sign_phase - Register successfully!
+2024-10-10T10:10:39.569815754+08:00 INFO intergration_test::user::user2::user2 - UserToProxySignPhaseP2PMsg has sent
