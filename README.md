@@ -1,6 +1,6 @@
 # distributed-identity-management-plugin
 
-本文档主要讲述在多个服务器上通过编译源码安装 FISCO BCOS 网络，并在该链上部署多个智能合约，实现分布式身份管理系统
+本分支主要讲述如何在 FISCO BCOS 基础上，实现许可链生态用户身份与数据监管系统
 
 ## 1. 安装依赖
 
@@ -12,7 +12,7 @@
 
 ## 2. 搭建四节点BCOS区块链网络
 
-参考FISCO BCOS官方文档()[]
+参考FISCO BCOS官方文档(https://fisco-bcos-documentation.readthedocs.io/zh-cn/latest/index.html)[https://fisco-bcos-documentation.readthedocs.io/zh-cn/latest/index.html]
 
 
 
